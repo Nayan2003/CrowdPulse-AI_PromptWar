@@ -1,0 +1,27 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Angular build output
+# dist/
+!dist/
+.angular/
+
+# Environment (don't commit real keys)
+src/environments/environment.prod.ts
+
+# Firebase
+.firebase/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "gates":      { ".read": "auth != null", ".write": "auth != null" },
+    "stands":     { ".read": "auth != null", ".write": "auth != null" },
+    "foodStalls": { ".read": "auth != null", ".write": "auth != null" },
+    "alerts":     { ".read": "auth != null", ".write": "auth != null" },
+    "snapshot":   { ".read": "auth != null", ".write": "auth != null" }
+  }
+}
